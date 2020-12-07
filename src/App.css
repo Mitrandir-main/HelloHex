@@ -1,0 +1,12 @@
+* {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.example::-webkit-scrollbar-track-piece {
+  display: none;
+}
+
+*::-webkit-scrollbar-track-piece {
+  display: none;
+}
