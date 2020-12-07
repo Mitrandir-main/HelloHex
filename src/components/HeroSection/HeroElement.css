@@ -28,30 +28,9 @@
   left: 0;
 }
 
-/* -o-object-fit: cover;
-  object-fit: cover; */
-
-.HeroContainer {
-  justify-content: center;
-  /* align-items: center; */
-
-  display: flex;
-  min-height: 100vh;
-  position: relative;
+@media screen and (max-width: 780px) {
+  .HeroContainer1 img {
+    width: 150vh;
+    height: auto;
+  }
 }
-
-.HeroContainer img {
-  /* display: flex; */
-
-  justify-content: center;
-  align-items: center;
-  border: 0;
-  position: relative;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  /* z-index: 2;
-  object-fit: scale-down; */
-}
-
